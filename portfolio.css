@@ -1,0 +1,136 @@
+.links{
+    color: rgb(49, 243, 123);
+    background-color: black;
+    padding: 15px;
+    margin: 50px;
+    font-size: larger;
+    border-radius: 100px;
+}
+.linkedin{
+    color: white;
+    background-color: rgb(33, 80, 235);
+    padding: 15px;
+    margin: 50px;
+    border-radius: 100px;
+    font-size: larger;
+}
+.mail{
+    color: white;
+    background-color: red;
+    padding: 15px;
+    margin: 50px;
+    border-radius: 100px;
+    font-size: larger;
+}
+.tweet{
+    color: white;
+    background-color: rgb(4, 175, 243);
+    padding: 15px;
+    margin: 50px;
+    border-radius: 100px;
+    font-size: larger;
+}
+.name{
+    text-align: center;
+    padding: 80px;
+    border-radius: 10px;
+    background-color: palevioletred;
+    font-family: 'Caveat', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+}
+.nav{
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+    
+}
+a{
+    color: azure;
+}
+.intro{
+    padding: 50px;
+    margin: 50px;
+}
+.edu{
+    padding: 50px;
+    margin: 50px;
+}
+.award{
+    padding: 50px;
+    margin: 50px;
+}
+.expe{
+    padding: 50px;
+    margin: 50px;
+}
+.project{
+    padding: 50px;
+    margin: 30px;
+}
+a:hover{
+    color: rgb(247, 207, 30);
+}
+.content{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pic{
+    text-align: center;
+    clip-path: circle(55% at 50% 50%);
+    height: 300px;
+}
+body{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    background-color: white;
+}
+@media (max-width:610px){
+    .nav{
+        height: 100px;
+    }
+}
+@media (min-width:610px) and (max-width:1245px){
+    .nav{
+        height: 65px;
+    }
+}
+.contact{
+    background-color: aqua;
+    margin: 50px;
+    text-align: center;
+    border-radius: 10px;
+    height: 400px;
+    width: 500px;
+    
+}
+.heading_form{
+    background-color: black;
+    color: greenyellow;
+    padding: 15px;
+    border-radius: 10px;
+}
+.submit{
+    background-color: rgb(64, 64, 250);
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+    border: 3px solid black;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.submit:hover{
+    background-color: rgb(51, 187, 51);
+}
+.credit{
+    background-color: rgb(27, 27, 214);
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+hr{
+    color: black;
+    border: black solid;
+}
